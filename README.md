@@ -17,16 +17,22 @@ possíveis variáveis que impactam na qualidade do vinho.
 
 - Como foi a definição da sua estratégia de modelagem?
     
+    First, I analyzed for each column all the statistics. After this, I realized that the data had very different distributions which makes the classification might be wrong. Thus, we had to perform tests to discretize the base at different intervals. The tests and their results are available in the file folder.
 
-- Como foi definida a função de custo utilizada?
+- Como foi definida a função de custo utilizada?  
+
     The cost function used was entropy, which, all decision tree of random forest use to build their model.
 
-- Qual foi o critério utilizado na seleção do modelo final?
-    Random Forest is an algorithm ideal to construct models with a high variance, which, is the case for the data used here in this test.
+- Qual foi o critério utilizado na seleção do modelo final? 
 
-- Qual foi o critério utilizado para validação do modelo? Por que escolheu utilizar este método?
+    Random Forest is an algorithm ideal to construct models with a high variance, which is the case for the data used here in this test.
+
+- Qual foi o critério utilizado para validação do modelo?  Por que escolheu utilizar este método?
+
     Several methods were tested, the model chosen was the one that obtained the best result in terms of acuracy.
     The methods tested were SVM(support vector machine); SVR(support vector regression); decision tree and random forest.
 
-- Quais evidências você possui de que seu modelo é suficientemente bom?
-    to verify the quality of the model was calculated its acuracy, thus, this metric along with others was the evidence that we obtained.
+- Quais evidências você possui de que seu modelo é suficientemente bom?  
+
+    To verify the quality of the model was calculated its acuracy, thus, this metric along with others was the evidence that we obtained.
+
