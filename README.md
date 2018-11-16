@@ -17,7 +17,7 @@ possíveis variáveis que impactam na qualidade do vinho.
 
 - Como foi a definição da sua estratégia de modelagem?
     
-    First, I analyzed for each column all the statistics. After this, I realized that the data had very different distributions which makes the classification might be wrong. Thus, we had to perform tests to discretize the base at different intervals. The tests and their results are available in the file folder.
+    First, I analyzed for each column all the statistics. After this, I realized that the data had very different distributions which makes the classification might be wrong. So, I had to perform tests to discretize the base at different intervals. The tests and their results are available in the file folder.
 
 - Como foi definida a função de custo utilizada?  
 
