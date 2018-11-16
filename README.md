@@ -34,5 +34,5 @@ possíveis variáveis que impactam na qualidade do vinho.
 
 - Quais evidências você possui de que seu modelo é suficientemente bom?  
 
-    To verify the quality of the model was calculated its acuracy, thus, this metric along with others was the evidence that we obtained.
+    To verify the quality of the model was calculated its acuracy, thus, this metric along with others was the evidence that we obtained. The best accuracy was 67%
 
